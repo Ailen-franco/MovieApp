@@ -8,12 +8,12 @@ const LatestReleasesMovies = () => {
     const { movies, loading, currentPage, totalPages, paginate } = useLatestReleasesMovies();
 
 
-  // Muestra el mensaje de carga mientras las películas se están cargando
+
   if (loading) {
     return <p>Cargando...</p>;
   }
 
-  // Muestra el mensaje "No hay películas disponibles" solo cuando no hay películas
+  
   if (!movies || movies.length === 0) {
     return <p>No hay películas disponibles.</p>;
   }
