@@ -27,7 +27,7 @@ const MovieRow = ({ title, url }) => {
           className='bg-white rounded-full absolute left-2 opacity-80 text-gray-700 z-10 hidden group-hover:block cursor-pointer'
           size={40}
         />
-        <div id={'slider' + rowId} className='w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth scrollbar-hide'>
+        <div id={'slider' + rowId} className='w-full h-full overflow-x-scroll whitespace-nowrap scroll-smooth'>
           {movies.map((movie) => (
             <MovieItem
               key={movie.id}

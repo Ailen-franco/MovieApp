@@ -2,3 +2,22 @@ body {
     background-color: black;
     color: antiquewhite;
   }
+
+  /* Agrega estas reglas para ocultar la barra de desplazamiento */
+.scroll-smooth {
+    scrollbar-width: thin;
+    scrollbar-color: transparent transparent;
+  }
+  
+  .scroll-smooth::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  .scroll-smooth::-webkit-scrollbar-thumb {
+    background-color: transparent;
+  }
+  
+  .scroll-smooth::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  

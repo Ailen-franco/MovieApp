@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import CardMovie from './CardMovie';
 import Pagination from './Pagination';
-import useLatestReleasesMovies from '../hooks/useLatestRelasesMovies';
+import useLatestReleasesMovies from '../hooks/useLatestReleases';
 
 
 const LatestReleasesMovies = () => {

@@ -36,14 +36,12 @@ export const FavoritosContextProvider = ({ children }) => {
   useEffect(() => {
     const favoritosGuardados = JSON.parse(localStorage.getItem('favoritos')) || [];
     if (favoritosGuardados.length > 0) {
-      console.log('Cargando favoritos del localStorage:', favoritosGuardados);
       setFavoritos(favoritosGuardados);
     }
   }, []);
 
   useEffect(() => {
     localStorage.setItem('favoritos', JSON.stringify(favoritos));
-    console.log('Guardando favoritos en el localStorage:', favoritos);
   }, [favoritos]);
 
   return (

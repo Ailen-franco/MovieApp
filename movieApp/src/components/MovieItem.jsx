@@ -14,7 +14,6 @@ export default function MovieItem({ movie }) {
   }, [id, esFavorito]);
 
   const handleLikeToggle = (e) => {
-    // Evitar que se propague el evento al contenedor padre y al enlace
     e.stopPropagation();
     e.preventDefault();
 
