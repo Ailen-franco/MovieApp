@@ -1,8 +1,30 @@
-# React + Vite
+# Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## sixth project carried out in the Frontend Development career
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Topics
+
+- [Project description](#project-description)
+- [See project](#project)
+- [Movie App preview](#preview)
+
+---
+
+### Project description
+
+last project of the frontend career. A great job to carry out, involving all the tools seen throughout the course. This project is based on a movie search engine. On its main page, there are two sections, one for the most popular movies, and another for the best rated movies. It also has the possibility of redirecting to other sections of the page, being able to see, for example, the latest releases.
+It presents a favorites section, with the purpose of adding those movies that are most attractive and that we even want to see again.
+Finally, it has a search engine, when we start writing it helps us with matches, making the movie search easier and more effective.
+
+---
+
+### Project
+
+I invite you to visit my project <a href="https://movie-app-nine-weld.vercel.app/" name="Movie App">Movie App</a>
+
+---
+
+### Preview
+![Movie App](/movieApp/src/assets/movie.JPG)
